@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
+          <hr>
+          <h3>Poverty vs Health risks</h3>
+          <p>We can certainly observe that there is a positive corelation between Poverty and Health risks. 
+            As we can see from the graph the states which have a higher percentage of poverty also lack healthcare the highest,
+            has the highest smoking population and have higher number of people who are obese.
+            States such as New Mexico and Mississippi have the highest poverty and have the highest percentage of population which 
+            have the most health risk from smoking to obesity to lack of healthcare. On the other end of the spectrum states
+            such as Maryland and Massachusetts have a very low percentage of population in poverty and subsequently very few 
+            people lack healthcare, are less obese and smoke less. Hence a positive corelation can be established between 
+            poverty and health risks.
+          </p>
+
+          <h3>Age vs Health risks</h3>
+          <p>When we consider the Median age of the states it looks like, as the population gets older there are high chances
+            that they opt for healthcare. The smoking habit tends to be more with older generation as compared to younger 
+            adults as we can see that the states which have a higher median age have a high percentage of smokers.
+            Finally with respect to obesity, age seems to not have much of an affect as we cannot establish any corelation from 
+            the data provided.
+          </p>
+
+          <h3>Household Income vs Health risks</h3>
+          <p>Interestingly, the household income has a negative corelation with health risk. As observed from the graph
+            the states with the highest median income have fewer people who are obese and also smoke less. When it comes to
+            healthcare, the corelation with median income is not too significant however it does seem that states with higher
+            median income do tend to be able to afford healthcare. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>Vijay Ghanapaati&copy;2020</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script type="text/javascript" src="assets/js/app_bonus.js"></script>
+
+</body>
+
+</html>
